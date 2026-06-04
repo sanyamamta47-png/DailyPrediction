@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Mamta Chawla",
+    "phone": "+919999999999",
+    "dob": "08-11-1978",
+    "subscription_status": "Active"
+  },
+  {
+    "name": "Gautami Sing",
+    "phone": "+918888888888",
+    "dob": "08-11-1978",
+    "subscription_status": "Active"
+  }
+]
