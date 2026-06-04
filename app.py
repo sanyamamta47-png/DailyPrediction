@@ -6,11 +6,11 @@ from supabase import create_client, Client
 # --- CONFIGURATION & SECRETS CONFIG ---
 PAYMENT_GATEWAY_URL = "https://rzp.io/rzp/7pdLRmod" 
 
-RAZORPAY_KEY_ID = st.secrets["RAZORPAY_KEY_ID"]
-RAZORPAY_KEY_SECRET = st.secrets["RAZORPAY_KEY_SECRET"]
+RAZORPAY_KEY_ID = st.secrets["rzp_test_SxUWugzzGQRvs8"]
+RAZORPAY_KEY_SECRET = st.secrets["jYNmw4T8zDETQtH4ssyN3pI4"]
 
-SUPABASE_URL = st.secrets["SUPABASE_URL"]
-SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
+SUPABASE_URL = st.secrets["https://byuxefastgkysmwjpchr.supabase.co"]
+SUPABASE_KEY = st.secrets["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ5dXhlZmFzdGdreXNtd2pwY2hyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA1NTg1NDcsImV4cCI6MjA5NjEzNDU0N30.YUBTrLTfs1-NSB1jeSLmvNx0b52kKQ1L4Dqlt7y2gxw"]
 
 @st.cache_resource
 def init_supabase():
