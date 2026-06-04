@@ -6,7 +6,7 @@ from supabase import create_client, Client
 # --- CONFIGURATION & SECRETS CONFIG ---
 PAYMENT_GATEWAY_URL = "https://rzp.io/rzp/7pdLRmod" 
 
-RAZORPAY_KEY_ID = st.secrets["rzp_test_SxUWugzzGQRvs8"]
+RAZORPAY_KEY_ID = st.secrets["RAZORPAY_KEY_ID"]
 RAZORPAY_KEY_SECRET = st.secrets["jYNmw4T8zDETQtH4ssyN3pI4"]
 
 SUPABASE_URL = st.secrets["https://byuxefastgkysmwjpchr.supabase.co"]
